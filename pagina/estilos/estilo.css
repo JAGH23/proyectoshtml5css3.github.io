@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color:white;
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+}
+header img{
+    margin-top: 50px;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: #0800aa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "New Amsterdam", sans-serif;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: #6f0202;
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-image: url(../imagenes/smaller\ wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section .personaje{
+    width: 1300px;
+    height: 350px;
+    background-color: #b3565694;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+    border:#d60000 2px solid;
+}
+.personaje .foto{
+    width: 400px;
+    height: 350px;
+    background-color: #e4050130;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+}
+.foto img{
+    height: 100%;
+}
+.personaje .texto{
+    width: 800px;
+    height: 350px;
+    background-color:  #ff66006e;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: #000000;
+}
